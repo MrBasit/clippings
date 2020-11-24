@@ -1,0 +1,60 @@
+@import url("./style.css");
+
+html{
+  font-size: 6.63px;
+}
+.showcase-info{
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.img2,
+.img3{
+  position: absolute;
+}
+.showcase-img .img1 ,.showcase-img .img4 {
+  display: none;
+}
+.showcase-img .img2{
+  top: 7rem;
+  left: 36rem;
+}
+.showcase-img .img2:hover{
+ transform: scale(1.5);
+}
+.showcase-img .img3{
+  top: 6rem;
+  left: 18rem;
+}
+.showcase-img .img3:hover{
+  transform: scale(1.5);
+ }
+.contact-img{
+  display: none;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-us input[type='email']{
+  width: 100%; 
+}
+.row1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.row2{
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.box + .box{
+  margin-top: 3rem;
+}

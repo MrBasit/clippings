@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (min-width:501px) and (max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="screen and (max-width:500px)" href="css/mobile.css">
-    <script src="https://kit.fontawesome.com/647354dd51.js" crossorigin="anonymous"></script>
-    <title>clippings</title>
+    <!-- <script src="https://kit.fontawesome.com/647354dd51.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./css/font-awesome icons.css">
+    <title>clippings | LOGICADE</title>
 </head>
 <body>
     <header class="header">
@@ -131,13 +133,28 @@
         <div class="contact-info">
           <div class="contact-us">
             <h1>Drop Us A Line</h1>
-            <form>
-              <input type="email" name="email" placeholder="someone@example.com">
+            <form id="contact-email">
+              <input type="email" name="email" placeholder="someone@example.com" required>
               <input type="submit" value="Contact me">
             </form>
           </div>
           <div class="contact-img">
             <img src="img/contact-img.png" >
+          </div>
+        </div>
+      </div>
+      <div id="contact-popup">
+        <div id="popup-cont">
+          <button id="close-popup"><i class="fas fa-times"></i></button>
+          <div class="popup-content">  
+            <div class="correct">
+              <img src="img/correct.png">
+            </div>
+            <div class="success">
+              <p>You have been Successfully Registered.</p>
+              <p>We will contact you in 24 hours.</p>
+            </div>
+            <button id="okay-btn">OKAY</button>
           </div>
         </div>
       </div>
@@ -153,7 +170,7 @@
             </ul>
           </div>
           <div class="copyright">
-            <p>All Copyrights Belong to Their Respective Owners.</p>
+            <p>All Copyrights Belong to Their Respective Owners. | LOGICADE</p>
           </div>
           <div class="footer-logo">
             <a href="#"><img src="img/footer-logo.png" ></a>
@@ -161,5 +178,6 @@
         </div>
       </div>
     </section>
+    <script src="js/main.js"></script>
 </body>
 </html>

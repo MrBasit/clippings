@@ -1,0 +1,45 @@
+.about{
+    position: relative;
+}
+.popup{
+    display: none;
+    background-color: #ececec;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: .5rem;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+
+/* .popup::after{
+    background-color: red;
+} */
+
+.popup img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.popup .popup-container{
+    padding: 0 1rem 1rem 1rem;
+}
+.popup .popup-container h2{
+    font-size: 18px;
+}
+
+.fa-times-circle{
+    color: red;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: -28px;
+    top: -23px;
+    /* box-shadow: ; */
+    transition: .5s;
+}
+.fa-times-circle:hover{
+    scale: 1.2;
+}

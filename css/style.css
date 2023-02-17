@@ -152,7 +152,6 @@ transform: scale(1.5);
 .left-icon a{
     display: block;
     color: black;
-    cursor: not-allowed;
 }
 .left-icon a + a{
     padding-left: 0.75rem;
@@ -173,7 +172,6 @@ transform: scale(1.5);
     border:1px solid black;
     border-radius: 50%;
     text-align: center;
-    cursor: not-allowed;
 }
 .right-icon a i{
     font-size: 1.6rem;
@@ -197,7 +195,6 @@ transform: scale(1.5);
 .list a{
   padding:0.5rem 0.5rem;
   border-radius: 2%;
-  cursor: not-allowed;
 }
 .list a + a{
   margin-left: 0.5rem;
@@ -266,7 +263,6 @@ transform: scale(1.5);
 .box a{
   display: block;
   color: black;
-  cursor: not-allowed;
  
 }
 
@@ -372,7 +368,6 @@ transform: scale(1.5);
 .footer-menu ul a{
   margin: 0 1rem;
   color: white;
-  cursor: not-allowed;
 }
 .footer-menu ul a:hover{
   color: lightslategrey;

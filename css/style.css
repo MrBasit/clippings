@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    color: #000;
 }
 ul{
     list-style: none;
@@ -52,7 +53,6 @@ p{
     color: #333;
     border: 1px black solid;
     border-radius: 5%;
-    cursor: not-allowed;
 }
 .btn a button:hover{
   color: white;
@@ -131,7 +131,7 @@ p{
     color: red;
 }
 .light{
-    color: #c5c5c5;
+    /* color: #c5c5c5; */
 }
 .social{
     margin-top: 1.5rem;

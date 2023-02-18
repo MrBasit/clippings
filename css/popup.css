@@ -2,6 +2,7 @@
     position: relative;
 }
 .popup{
+    width: 33%;
     display: none;
     background-color: #ececec;
     position: absolute;
@@ -11,10 +12,6 @@
     transform: translate(-50%, -50%);
     transition: 1s;
 }
-
-/* .popup::after{
-    background-color: red;
-} */
 
 .popup img{
     width: 100%;
@@ -37,9 +34,77 @@
     top: 0;
     right: -28px;
     top: -23px;
-    /* box-shadow: ; */
     transition: .5s;
 }
 .fa-times-circle:hover{
     scale: 1.2;
 }
+
+
+@media screen and (max-width: 1300px) {
+
+    
+    .popup{
+        width: 50%;
+
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .popup img{
+        height: 250px;
+    }
+    .popup .popup-container h2{
+        font-size: 1rem;
+    }
+    .popup .popup-container p{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    .popup{
+        width: 60%;
+
+    }
+    .popup img{
+        height: 200px;
+    }
+    .popup .popup-container h2{
+        font-size: 1.5rem;
+    }
+    .popup .popup-container p{
+        font-size: 14px;
+        line-height: 1.8rem;
+    }
+
+    .fa-times-circle{
+        right: -18px;
+        top: -17px;
+    }
+    
+
+}
+@media screen and (max-width: 500px){
+    .popup{
+        width: 60%;
+
+    }
+    .popup img{
+        height: 150px;
+    }
+    .popup .popup-container h2{
+        font-size: 2rem;
+    }
+    .popup .popup-container p{
+        font-size: 12px;
+        line-height: 2rem;
+    }
+
+    .fa-times-circle{
+        right: -12px;
+        top: -9px;
+    }
+    
+
+}
+

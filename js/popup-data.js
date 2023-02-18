@@ -19,7 +19,7 @@ export const popupData = [
     },
     {
     img: 'img/box4-img.png',
-    title: 'ootball Food Made Easy',
+    title: 'football Food Made Easy',
     discription: 'Editorial project management, content direction, proofreading & copy editing, copywriting, and recipe standardization for new website of the beloved regional favorite'
 
     },
